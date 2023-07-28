@@ -1,0 +1,27 @@
+.text
+{
+
+    color:black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+footer{
+    margin-top: 280px;
+margin-bottom: 0px;
+}
+p{
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.play{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}

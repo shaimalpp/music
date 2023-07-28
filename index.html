@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>MUSIC</title>    
+</head>
+<body>
+    <header>
+       <h1>  ENJOY IT.</h1>
+        <nav class="nav">
+            <ul>
+
+            <li>
+                <a href="#" title="HOME">HOME</a>
+
+            </li>
+
+            <li>
+
+                <a href="#" title="CONTACT US">CONTACT US</a>
+
+            </li>
+
+            <li>
+
+                <a href="#" title="SEARCH">SEARCH</a>
+                
+            </li>
+
+            <li>
+
+                <a href="favourite.html">FAVOURITE</a>
+
+            </li>
+
+            </ul>
+
+            </nav>
+    </header>
+    <main class="text">
+        <p>SELACT YOUR MOOD</p>
+        <p class="play"><img class="BUTTON" src="pk.png" alt="play" id="icon" width="100px" height="100px"></p1>
+        <p class="play"><audio id="song" src="dzanum.mp3" type="audio/mp3"></audio></p1>
+
+    </main>
+      
+        <footer>
+
+            <p><center>Copyrights &copy;2004 ENJOY IT. All rights Reserved</center></p>
+
+        </footer>
+
+        <script>
+
+            var song=document.getElementById('song');
+            var icon=document.getElementById('icon');
+            icon.onclick=function(){
+                
+                if(song.paused){
+                    song.play();
+                    icon.src="pause.png";
+
+                }
+                else{
+                    song.pause();
+                    icon.src="pk.png";
+
+                }
+                }
+        </script>
+</body>
+</html>
